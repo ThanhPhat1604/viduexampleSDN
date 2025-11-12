@@ -9,7 +9,7 @@ const app = express();
 
 // Cấu hình CORS cho frontend Next.js
 app.use(cors({
-  origin: ["http://localhost:3000","https://viduexamplesdn.onrender.com"]
+  origin: ["https://viduexamplesdn.onrender.com"]
 }));
 
 app.use(express.json());
