@@ -18,7 +18,7 @@ export default function HomePage() {
     axios
       .get("http://localhost:4000/recipes")
       .then((res) => {
-        setRecipes(res.data);
+        setRecipes(res.data as Recipe[]);
         setLoading(false);
       })
       .catch((err) => {
