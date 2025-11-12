@@ -1,0 +1,98 @@
+# ==========================
+# 📦 Node / Package managers
+# ==========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# nếu bạn không muốn commit lockfile, có thể thêm:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ==========================
+# ⚙️ Next.js / Vite build
+# ==========================
+.next/
+out/
+build/
+dist/
+.vercel/
+.netlify/
+.cache/
+.temp/
+.tmp/
+coverage/
+
+# ==========================
+# 🧩 TypeScript
+# ==========================
+*.tsbuildinfo
+
+# ==========================
+# 🔐 Environment variables
+# ==========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ==========================
+# 🧰 OS & IDE
+# ==========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ==========================
+# 🧪 Testing / Reports
+# ==========================
+coverage/
+jest-coverage/
+*.lcov
+.nyc_output/
+
+# ==========================
+# 🧱 Logs
+# ==========================
+logs/
+*.log
+debug.log
+error.log
+
+# ==========================
+# 🖼️ Assets build cache
+# ==========================
+public/_next/static/
+public/build/
+*.cache
+*.temp
+
+# ==========================
+# 🧩 Docker / Deployment
+# ==========================
+docker-compose.override.yml
+docker-compose.*.yml
+
+# ==========================
+# 🔑 Keys / Secrets
+# ==========================
+*.pem
+*.key
+*.crt
+
+# ==========================
+# ⚙️ Misc
+# ==========================
+*.pid
+*.pid.lock
+pids/
+tmp/
+temp/

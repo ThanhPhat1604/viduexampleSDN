@@ -1,0 +1,86 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+out/
+.tmp/
+.temp/
+.cache/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Environment files (DO NOT COMMIT)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Supabase CLI local data
+.supabase/
+!.supabase/migrations/
+!.supabase/config/
+
+# Logs
+logs/
+*.log
+debug.log
+error.log
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS / Misc
+.DS_Store
+Thumbs.db
+
+# Coverage & test artifacts
+coverage/
+coverage-final.json
+jest-coverage/
+nyc_output/
+
+# Docker / deployment overrides
+docker-compose.override.yml
+docker-compose.*.yml
+
+# Keys, certificates, secrets
+*.pem
+*.key
+*.crt
+
+# Local database / runtime data
+*.sqlite
+*.db
+*.db-journal
+*.pid
+*.seed
+*.dump
+
+# Temporary uploads or cache folders
+uploads/
+tmp/
+temp/
+
+# PM2 / nodemon
+pids/
+*.pid
+*.pid.lock
+.nodemonignore
+
+# Lockfiles (optional – uncomment one you use)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
