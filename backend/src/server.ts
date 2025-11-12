@@ -7,9 +7,13 @@ dotenv.config();
 
 const app = express();
 
-// Cấu hình CORS cho frontend Next.js
+// ✅ Cấu hình CORS cho frontend (Vercel + local)
 app.use(cors({
-  origin: ["https://viduexamplesdn.onrender.com"]
+  origin: [
+    "https://viduexample-sdn.vercel.app",
+    "http://localhost:3000"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
 }));
 
 app.use(express.json());
